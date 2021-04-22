@@ -1,3 +1,7 @@
 [[plugins]]
 repo = 'cespare/vim-toml'
 on_ft = ['toml']
+
+[[plugins]]
+repo = 'rust-lang/rust.vim'
+on_ft = ['rust']

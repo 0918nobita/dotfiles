@@ -48,6 +48,8 @@ if dein#check_install()
   call dein#install()
 endif
 
-let g:airline_theme='angr'
-let g:airline#extensions#tabline#enabled=1
-let g:airline_powerline_fonts=1
+let g:airline_theme = 'angr'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+let g:rustfmt_autosave = 1
